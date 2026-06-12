@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About Us &mdash; D&amp;S Oncopharma</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--t:#0d3d3a;--t2:#0f4f4b;--t3:#1a6b65;--t4:#22897f;--a:#4ecdc4;--a2:#7eddd7;--a3:#b0eeea;--tx:#0d2b2a;--tx2:#2a4a48;--tx3:#5a7a78;--w:#fff;--ic:#f0f8f8;--ic2:#f7fbfc;--r:4px;--r2:8px;}
+html,body{font-family:'DM Sans',sans-serif;background:var(--w);color:var(--tx);overflow-x:hidden;scroll-behavior:smooth}
+::-webkit-scrollbar{width:5px}::-webkit-scrollbar-track{background:var(--t)}::-webkit-scrollbar-thumb{background:var(--a);border-radius:3px}
+.gl{height:3px;background:linear-gradient(90deg,var(--t3),var(--a),var(--a2),var(--t3));background-size:200% 100%;animation:sh 3s linear infinite}
+@keyframes sh{0%{background-position:200% 0}100%{background-position:-200% 0}}
+@keyframes fu{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+.fadein{animation:fu .5s ease both}
+nav{position:sticky;top:0;z-index:999;background:rgba(13,61,58,0.97);backdrop-filter:blur(12px);display:flex;align-items:center;justify-content:space-between;padding:0 3rem;height:68px;border-bottom:1px solid rgba(78,205,196,0.18)}
+.logo{display:flex;align-items:center;gap:11px;cursor:pointer;text-decoration:none}
+.lm{width:34px;height:34px;border:1.5px solid var(--a);border-radius:50%;display:flex;align-items:center;justify-content:center;transition:background .2s}
+.logo:hover .lm{background:rgba(78,205,196,0.12)}
+.lt{font-family:'Cormorant Garamond',serif;font-size:17px;font-weight:600;color:var(--w);letter-spacing:.04em}
+.ls{font-size:9px;color:var(--a);letter-spacing:.18em;text-transform:uppercase;display:block;margin-top:-2px}
+.nl{display:flex;align-items:center;gap:1.8rem}
+.nl a{color:rgba(255,255,255,.7);font-size:12px;letter-spacing:.08em;text-transform:uppercase;text-decoration:none;cursor:pointer;transition:color .2s;position:relative;padding-bottom:2px}
+.nl a::after{content:'';position:absolute;bottom:0;left:0;width:0;height:1px;background:var(--a);transition:width .25s}
+.nl a:hover,.nl a.active{color:var(--a)}.nl a:hover::after,.nl a.active::after{width:100%}
+.ncta{background:var(--a)!important;color:var(--t)!important;padding:8px 20px;border-radius:var(--r);font-weight:500!important}
+.ncta::after{display:none!important}.ncta:hover{background:var(--a2)!important}
+.bp{background:var(--a);color:var(--t);padding:13px 28px;border-radius:var(--r);font-size:12px;font-weight:500;letter-spacing:.06em;text-transform:uppercase;cursor:pointer;border:none;font-family:'DM Sans',sans-serif;transition:all .2s;display:inline-flex;align-items:center;gap:8px;text-decoration:none}
+.bp:hover{background:var(--a2);transform:translateY(-2px)}
+.bo{background:transparent;color:var(--w);border:1px solid rgba(255,255,255,.28);padding:13px 28px;border-radius:var(--r);font-size:12px;letter-spacing:.06em;text-transform:uppercase;cursor:pointer;font-family:'DM Sans',sans-serif;transition:all .2s;display:inline-flex;align-items:center;gap:8px;text-decoration:none}
+.bo:hover{border-color:var(--a);color:var(--a);transform:translateY(-2px)}
+.bt{background:var(--t);color:var(--w);padding:13px 28px;border-radius:var(--r);font-size:12px;font-weight:500;letter-spacing:.06em;text-transform:uppercase;cursor:pointer;border:none;font-family:'DM Sans',sans-serif;transition:all .2s;display:inline-flex;align-items:center;gap:8px;text-decoration:none}
+.bt:hover{background:var(--t2);transform:translateY(-2px)}
+.bot{background:transparent;color:var(--t);border:1px solid rgba(13,61,58,.3);padding:13px 28px;border-radius:var(--r);font-size:12px;letter-spacing:.06em;text-transform:uppercase;cursor:pointer;font-family:'DM Sans',sans-serif;transition:all .2s;display:inline-flex;align-items:center;gap:8px;text-decoration:none}
+.bot:hover{border-color:var(--t4);color:var(--t4);transform:translateY(-2px)}
+.sl{font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--t4);font-weight:500;margin-bottom:.7rem;display:flex;align-items:center;gap:8px}
+.sl::before{content:'';display:inline-block;width:22px;height:1px;background:var(--t4)}
+.st{font-family:'Cormorant Garamond',serif;font-size:clamp(30px,3vw,48px);font-weight:300;color:var(--t);line-height:1.1;margin-bottom:.9rem}
+.ss{font-size:14px;color:var(--tx2);line-height:1.8;max-width:540px;margin-bottom:3rem}
+.hbg{position:absolute;inset:0;opacity:.035;background-image:repeating-linear-gradient(0deg,transparent,transparent 50px,rgba(78,205,196,1) 50px,rgba(78,205,196,1) 51px),repeating-linear-gradient(90deg,transparent,transparent 50px,rgba(78,205,196,1) 50px,rgba(78,205,196,1) 51px)}
+.hc{position:absolute;border-radius:50%}
+.hc1{right:-120px;top:-120px;width:580px;height:580px;border:1px solid rgba(78,205,196,.07)}
+.hc2{right:-50px;top:-50px;width:400px;height:400px;border:1px solid rgba(78,205,196,.05)}
+footer{background:var(--t);border-top:1px solid rgba(78,205,196,.15);padding:3rem 4rem;display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:3rem}
+.fb2 p{font-size:12px;color:rgba(255,255,255,.36);line-height:1.8;margin-top:12px;max-width:240px}
+.fc h4{font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--a);margin-bottom:.9rem;font-weight:500}
+.fc a{display:block;font-size:12px;color:rgba(255,255,255,.42);margin-bottom:8px;text-decoration:none;transition:color .15s}
+.fc a:hover{color:var(--a)}
+.fbot{background:var(--t);border-top:1px solid rgba(255,255,255,.06);padding:1rem 4rem;display:flex;justify-content:space-between;align-items:center}
+.fbot p{font-size:11px;color:rgba(255,255,255,.26)}
+.toast{position:fixed;bottom:2rem;right:2rem;background:var(--t);color:var(--w);padding:14px 22px;border-radius:var(--r2);font-size:13px;border-left:4px solid var(--a);box-shadow:0 8px 32px rgba(0,0,0,.2);z-index:9999;transform:translateY(100px);opacity:0;transition:all .35s;max-width:320px}
+.toast.show{transform:translateY(0);opacity:1}
+.btt{position:fixed;bottom:2rem;left:2rem;width:40px;height:40px;background:var(--t);border:1px solid rgba(78,205,196,.3);border-radius:50%;display:flex;align-items:center;justify-content:center;cursor:pointer;z-index:9998;opacity:0;transition:all .3s;text-decoration:none}
+.btt.show{opacity:1}.btt:hover{background:var(--t2);border-color:var(--a)}
+.btt svg{width:15px;height:15px;stroke:var(--a);fill:none;stroke-width:2}
+</style>
+</head>
+<body>
+<div class="gl"></div>
+<nav>
+  <a class="logo" href="index.html">
+    <div class="lm"><svg viewBox="0 0 24 24" fill="none" width="17" height="17"><path d="M12 2v20M2 12h20M5.5 5.5l13 13M18.5 5.5l-13 13" stroke="#4ecdc4" stroke-width="1.5" stroke-linecap="round"/></svg></div>
+    <div><span class="lt">D&amp;S ONCOPHARMA</span><span class="ls">Global Oncology APIs</span></div>
+  </a>
+  <div class="nl">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="catalog.html">Products</a>
+    <a href="contact.html" class="ncta">Request Quote</a>
+  </div>
+</nav>
+<style>
+.abh{background:var(--t);padding:6rem 4rem 5rem;position:relative;overflow:hidden}
+.abhin{position:relative;z-index:2;max-width:680px}
+.abh h1{font-family:'Cormorant Garamond',serif;font-size:56px;font-weight:300;color:var(--w);line-height:1.05;margin-bottom:1rem}
+.abh h1 em{font-style:italic;color:var(--a2)}
+.abh p{font-size:14px;color:rgba(255,255,255,.52);line-height:1.85;max-width:540px}
+.abb{padding:5rem 4rem;display:grid;grid-template-columns:1fr 1fr;gap:5rem;align-items:start;background:var(--w)}
+.abt h2{font-family:'Cormorant Garamond',serif;font-size:36px;font-weight:300;color:var(--t);margin-bottom:.9rem;line-height:1.15}
+.abt p{font-size:14px;color:var(--tx2);line-height:1.9;margin-bottom:1.1rem}
+.abs{display:flex;flex-direction:column;gap:18px}
+.asc{border-left:3px solid var(--a);padding:20px 24px;background:var(--ic2);border-radius:0 var(--r2) var(--r2) 0;transition:all .2s}
+.asc:hover{border-color:var(--t4);background:rgba(78,205,196,.05)}
+.asc h4{font-family:'Cormorant Garamond',serif;font-size:20px;font-weight:400;color:var(--t);margin-bottom:7px}
+.asc p{font-size:13px;color:var(--tx2);line-height:1.75}
+.abv{background:var(--t);padding:5rem 4rem;position:relative;overflow:hidden}
+.abvbg{position:absolute;inset:0;opacity:.03;background-image:repeating-linear-gradient(0deg,transparent,transparent 40px,rgba(78,205,196,1) 40px,rgba(78,205,196,1) 41px),repeating-linear-gradient(90deg,transparent,transparent 40px,rgba(78,205,196,1) 40px,rgba(78,205,196,1) 41px)}
+.vg{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid rgba(78,205,196,.2);border-radius:var(--r2);overflow:hidden;margin-top:2.5rem}
+.vi{padding:30px;border-right:1px solid rgba(78,205,196,.12);transition:background .2s}
+.vi:last-child{border-right:none}.vi:hover{background:rgba(78,205,196,.05)}
+.vn{font-family:'Cormorant Garamond',serif;font-size:38px;font-weight:300;color:var(--a);line-height:1}
+.vl{font-size:10px;color:rgba(255,255,255,.42);text-transform:uppercase;letter-spacing:.12em;margin-top:7px}
+.atm{padding:5rem 4rem;background:var(--ic2)}
+.eg{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:2.5rem}
+.ec{background:var(--w);border:1px solid rgba(78,205,196,.18);border-radius:var(--r2);padding:26px;text-align:center;transition:all .2s}
+.ec:hover{border-color:var(--a);transform:translateY(-3px);box-shadow:0 8px 30px rgba(78,205,196,.1)}
+.ei{width:56px;height:56px;background:rgba(78,205,196,.1);border-radius:50%;display:flex;align-items:center;justify-content:center;margin:0 auto .9rem}
+.ei svg{width:26px;height:26px;stroke:var(--t4);fill:none;stroke-width:1.5}
+.ec h4{font-family:'Cormorant Garamond',serif;font-size:19px;font-weight:400;color:var(--t);margin-bottom:7px}
+.ec p{font-size:12px;color:var(--tx2);line-height:1.7}
+.ctab{padding:5rem 4rem;background:var(--w);text-align:center}
+.ctab h2{font-family:'Cormorant Garamond',serif;font-size:44px;font-weight:300;color:var(--t);margin-bottom:.9rem;line-height:1.1}
+.ctab h2 em{font-style:italic;color:var(--t4)}
+.ctab p{font-size:14px;color:var(--tx2);line-height:1.8;max-width:500px;margin:0 auto 2.2rem}
+.ca{display:flex;gap:12px;justify-content:center}
+</style>
+<div id="top" class="fadein">
+<div class="abh">
+  <div class="hbg"></div><div class="hc hc1"></div>
+  <div class="abhin"><div class="sl" style="color:var(--a)">Who we are</div><h1>About D&amp;S<br><em>Oncopharma</em></h1><p>Founded with a singular focus on oncology, we bridge the gap between top-tier API manufacturers and pharmaceutical companies that demand precision, reliability, and full regulatory support at every stage.</p></div>
+</div>
+<div class="abb">
+  <div class="abt">
+    <div class="sl">Our mission</div>
+    <h2>Enabling Better Cancer Treatments Through Reliable API Supply</h2>
+    <p>D&amp;S Oncopharma was established to address a critical need in the pharmaceutical supply chain: a specialist partner who deeply understands the unique complexities of oncology API procurement.</p>
+    <p>Cancer medicines demand the highest standards. From cold-chain handling and stability requirements to complex regulatory filings and DMF submissions, every step requires specialist knowledge that generalist distributors simply cannot offer.</p>
+    <p>Our network spans GMP-certified manufacturers across Asia, Europe, and the Americas giving clients access to competitive pricing, multiple sourcing options, and supply continuity even in disrupted global markets.</p>
+    <p>We work with generic pharmaceutical manufacturers, formulation companies, research institutions, and contract development organisations who require dependable API supply with complete documentation packages.</p>
+  </div>
+  <div class="abs">
+    <div class="asc"><h4>Specialist Focus</h4><p>Our entire portfolio is dedicated to oncology. This means deeper product knowledge, stronger manufacturer relationships, and faster more accurate responses to your enquiries.</p></div>
+    <div class="asc"><h4>Documentation Excellence</h4><p>Every API we supply comes with a comprehensive documentation package: CoA, MSDS, DMF cross-reference, stability data where available, and regulatory letter of access support.</p></div>
+    <div class="asc"><h4>Global Reach</h4><p>We supply manufacturers in 40+ countries across South Asia, Southeast Asia, Africa, Latin America, and Eastern Europe with logistics partners specialised in pharmaceutical freight.</p></div>
+    <div class="asc"><h4>Quality Assurance</h4><p>All APIs are tested against pharmacopoeia specifications. Batch-specific CoA and third-party testing reports are available on request for every shipment.</p></div>
+  </div>
+</div>
+<div class="abv">
+  <div class="abvbg"></div>
+  <div style="position:relative;z-index:2">
+    <div class="sl">By the numbers</div>
+    <h2 class="st" style="color:var(--w)">The Scale of Our Oncology Network</h2>
+    <div class="vg">
+      <div class="vi"><div class="vn">22+</div><div class="vl">Oncology APIs</div></div>
+      <div class="vi"><div class="vn">40+</div><div class="vl">Countries Served</div></div>
+      <div class="vi"><div class="vn">GMP</div><div class="vl">Compliant Only</div></div>
+      <div class="vi"><div class="vn">100%</div><div class="vl">Docs Provided</div></div>
+    </div>
+  </div>
+</div>
+<div class="atm">
+  <div class="sl">Our expertise</div>
+  <h2 class="st">Deep Knowledge Across Every Function</h2>
+  <p class="ss">Our team combines pharmaceutical science, regulatory affairs, and supply chain expertise, all focused exclusively on oncology.</p>
+  <div class="eg">
+    <div class="ec"><div class="ei"><svg viewBox="0 0 24 24"><path d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"/></svg></div><h4>Regulatory Affairs</h4><p>Full DMF support, CoA provision, and regulatory dossier assistance for your submissions worldwide.</p></div>
+    <div class="ec"><div class="ei"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M6 20v-2a4 4 0 014-4h4a4 4 0 014 4v2"/></svg></div><h4>Pharmaceutical Science</h4><p>Deep understanding of oncology APIs including chemistry, handling requirements, stability, and formulation considerations.</p></div>
+    <div class="ec"><div class="ei"><svg viewBox="0 0 24 24"><path d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"/></svg></div><h4>Supply Chain</h4><p>Global logistics expertise in pharmaceutical freight including cold-chain, controlled substances, and customs compliance.</p></div>
+  </div>
+</div>
+<div class="ctab">
+  <div class="sl" style="justify-content:center">Work with us</div>
+  <h2>Partner with a Specialist<br><em>Oncology Supplier</em></h2>
+  <p>Reach out to discuss your API requirements. We respond within one business day with a tailored solution.</p>
+  <div class="ca"><a class="bt" href="contact.html">Get in Touch &rarr;</a><a class="bot" href="catalog.html">View API Catalog</a></div>
+</div>
+<footer>
+  <div class="fb2">
+    <a class="logo" href="index.html"><div class="lm"><svg viewBox="0 0 24 24" fill="none" width="15" height="15"><path d="M12 2v20M2 12h20M5.5 5.5l13 13M18.5 5.5l-13 13" stroke="#4ecdc4" stroke-width="1.5" stroke-linecap="round"/></svg></div><div><span class="lt">D&amp;S ONCOPHARMA</span><span class="ls" style="color:rgba(255,255,255,0.3)">Global Oncology APIs</span></div></a>
+    <p>Specialist wholesale supplier of oncology active pharmaceutical ingredients to manufacturers worldwide.</p>
+  </div>
+  <div class="fc"><h4>Company</h4><a href="about.html">About Us</a><a href="contact.html">Contact</a><a href="contact.html">Request Quote</a></div>
+  <div class="fc"><h4>Products</h4><a href="catalog.html">Full Catalog</a><a href="catalog.html">Targeted Therapies</a><a href="catalog.html">Cytotoxic Agents</a></div>
+  <div class="fc"><h4>Compliance</h4><a href="#">GMP Documentation</a><a href="#">Quality Standards</a><a href="#">Regulatory Support</a></div>
+</footer>
+<div class="fbot"><p>&copy; 2025 D&amp;S Oncopharma. All rights reserved.</p><p>Wholesale supplier &mdash; pharmaceutical industry professionals only.</p></div><div class="toast" id="toastEl"></div>
+<a class="btt" id="bttEl" href="#top">
+  <svg viewBox="0 0 24 24"><path d="M5 15l7-7 7 7"/></svg>
+</a>
+<script>
+window.addEventListener('scroll',function(){
+  var b=document.getElementById('bttEl');
+  if(b){if(window.scrollY>400)b.classList.add('show');else b.classList.remove('show');}
+});
+function showToast(msg){
+  var t=document.getElementById('toastEl');
+  if(!t)return;
+  t.textContent=msg;t.classList.add('show');
+  setTimeout(function(){t.classList.remove('show');},4500);
+}
+</script>
+</body>
+</html>
